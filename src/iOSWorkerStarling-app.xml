@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application 
+	xmlns="http://ns.adobe.com/air/application/20.0">
+
+	<id>com.yourcompanyname.iOSWorkerStarling</id>
+	<filename>iOSWorkerStarling</filename>
+	<name>iOSWorkerStarling</name>
+	<versionNumber>0.0.1</versionNumber>
+	<versionLabel>0.0.1</versionLabel>
+
+	<initialWindow>
+		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
+		<visible>true</visible>
+		<aspectRatio>portrait</aspectRatio>
+		<autoOrients>false</autoOrients>
+		<fullScreen>true</fullScreen>
+		<renderMode>direct</renderMode>
+		<requestedDisplayResolution>high</requestedDisplayResolution>
+
+	</initialWindow>
+
+	<iPhone>
+		<InfoAdditions>
+			<![CDATA[
+			<key>UIDeviceFamily</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+			</array>
+            <key>MinimumOSVersion</key>
+        	<string>7.0</string>
+        	<key>UIFileSharingEnabled</key>
+   			<true/>
+		]]>
+		</InfoAdditions>
+		<requestedDisplayResolution>high</requestedDisplayResolution>
+	</iPhone>
+</application>
+
