@@ -10,3 +10,7 @@ It is only possible to create one instance of a singleton class in Mainthread or
 
 Track this bug at bugbase:
 https://bugbase.adobe.com/index.cfm?event=bug&id=4068292
+
+
+# UPDATE:
+This Issue is fixed with AIR 23!
